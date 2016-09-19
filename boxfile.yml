@@ -1,0 +1,4 @@
+code.build:
+  engine: "ruby"
+  extra_packages:
+    - "nodejs-6.2"
