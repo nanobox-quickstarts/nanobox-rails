@@ -2,7 +2,8 @@ ENV['BUNDLE_GEMFILE'] ||= File.expand_path('../Gemfile', __dir__)
 
 require 'bundler/setup' # Set up gems listed in the Gemfile.
 
-# nanobox configuration
+# nanobox configuration; most apps bind to localhost by default, however we need
+# to allow connections from your host into the container
 require 'rails/commands/server'
 module Rails
   class Server
