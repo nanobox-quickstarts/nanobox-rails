@@ -20,6 +20,6 @@ bower.json
 # Ignore Byebug command history file.
 .byebug_history
 
-# nanobox
+#
 .DS_Store
 node_modules
