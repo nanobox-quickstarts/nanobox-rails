@@ -1,4 +1,12 @@
 code.build:
+  # the ruby engine provides the ruby runtime and runs bundle install during the
+  # compile phase
   engine: "ruby"
+
+  # the nodejs package provides the nodejs runtime and npm
   extra_packages:
     - "nodejs-6.2"
+
+# run the application in a web component
+web.rails:
+  start: 'bundle exec rails s'
