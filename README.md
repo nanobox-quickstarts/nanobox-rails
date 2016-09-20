@@ -24,7 +24,7 @@ nanobox dev dns add rails.nanobox.dev
 nanobox dev console
 
 # run the app
-/app $ bundle exec rails s
+bundle exec rails s
 ```
 
 Visit the app from your favorite browser at: `rails.nanobox.dev:8080`
