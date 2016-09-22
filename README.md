@@ -23,7 +23,7 @@ nanobox dev dns add rails.nanobox.dev
 # console into the dev environment
 nanobox dev console
 
-# run the app
+# run the application
 bundle exec rails s
 ```
 
