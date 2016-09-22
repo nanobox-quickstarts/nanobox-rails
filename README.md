@@ -1,4 +1,4 @@
-# Rails on Nanobox
+# Rails with Nanobox
 This is the companion application for the [Rails: Getting Started](https://guides.nanobox.io/rails/) guide on [guides.nanobox.io](https://guides.nanobox.io) and is pre-configured and ready to run with [nanobox](https://desktop.nanobox.io/)!
 
 ## Up and Running
