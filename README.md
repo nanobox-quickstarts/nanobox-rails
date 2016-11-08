@@ -24,7 +24,7 @@ nanobox run rails s
 # Add a convenient way to access your app from the browser
 nanobox dns add local rails.dev
 ```
-Visit your app -> [rails.dev](http://rails.dev)
+Visit your app -> [rails.dev:3000](http://rails.dev:3000)
 
 #### Explore
 
