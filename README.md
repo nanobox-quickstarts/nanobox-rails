@@ -26,12 +26,10 @@ Visit the app from your favorite browser at: `rails.dev`
 ## Explore
 
 ```bash
-# drop into an interactive console within nanobox
+# drop into a console within nanobox
 nanobox run
 
 ```
-
-Visit the app from your favorite browser at: `rails.nanobox.dev:8080`
 
 ### Now What?
 For more details about how this works or for more advanced topics related to running Rails applications with nanobox visit [guides.nanobox.io/rails/](https://guides.nanobox.io/rails/)
