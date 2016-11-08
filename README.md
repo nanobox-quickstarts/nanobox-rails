@@ -13,17 +13,15 @@ cd nanobox-rails
 
 #### Add dns
 
-Add a convenient way to access your app from the browser:
-
 ```bash
+# Add a convenient way to access your app from the browser:
 nanobox dns add local rails.dev
 ```
 
 #### Run the app
 
-Run rails as you would normally, inside of Nanobox:
-
 ```bash
+# Run rails as you would normally, inside of Nanobox:
 nanobox run rails s
 ```
 
