@@ -1,5 +1,5 @@
 # Rails with Nanobox
-This is the companion application for the [Rails: Getting Started](https://guides.nanobox.io/rails/) guide on [guides.nanobox.io](https://guides.nanobox.io) and is pre-configured and ready to run with [nanobox](https://desktop.nanobox.io/)!
+This is the companion application for the [Rails: Getting Started](https://guides.nanobox.io/ruby/rails/) guide on [guides.nanobox.io](https://guides.nanobox.io) and is pre-configured and ready to run with [nanobox](https://nanobox.io/)!
 
 #### Clone the repo
 
@@ -45,4 +45,4 @@ ls
 ```
 
 #### Now What?
-For more details about how this works or for more advanced topics related to running Rails applications with nanobox visit [guides.nanobox.io/rails/](https://guides.nanobox.io/rails/)
+For more details about how this works or for more advanced topics related to running Rails applications with nanobox visit [guides.nanobox.io/rails/](https://guides.nanobox.io/ruby/rails/)
