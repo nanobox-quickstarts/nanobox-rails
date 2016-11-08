@@ -1,27 +1,34 @@
 # Rails with Nanobox
 This is the companion application for the [Rails: Getting Started](https://guides.nanobox.io/rails/) guide on [guides.nanobox.io](https://guides.nanobox.io) and is pre-configured and ready to run with [nanobox](https://desktop.nanobox.io/)!
 
-## Up and Running
+## Clone the repo
 
-``` bash
-
+```bash
 # clone the code
 git clone https://github.com/nanobox-quickstarts/nanobox-rails.git
 
 # cd into the rails app
 cd nanobox-rails
+```
 
-# start the dev environment
-nanobox dev start
+## Run the app
 
+```bash
 # add a convenient way to access your app from the browser
-nanobox dev dns add rails.nanobox.dev
+nanobox dns add local rails.dev
 
-# console into the dev environment
-nanobox dev console
+# run rails
+nanobox run rails s
+```
 
-# run the application
-bundle exec rails s
+Visit the app from your favorite browser at: `rails.dev`
+
+## Explore
+
+```bash
+# drop into an interactive console within nanobox
+nanobox run
+
 ```
 
 Visit the app from your favorite browser at: `rails.nanobox.dev:8080`

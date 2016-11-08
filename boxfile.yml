@@ -1,4 +1,4 @@
-code.build:
+run.config:
   # the ruby engine provides the ruby runtime and runs bundle install during the
   # compile phase
   engine: "ruby"
