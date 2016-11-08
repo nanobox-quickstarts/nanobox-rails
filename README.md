@@ -25,20 +25,21 @@ nanobox run rails s
 nanobox dns add local rails.dev
 ```
 
-[rails.dev](http://rails.dev)
+Seriously, check it out -> [rails.dev](http://rails.dev)
 
 #### Explore
-
 ```bash
-# drop into Nanobox
+# drop into your app context
 nanobox run
 
-# hey, ruby is installed!
+# where ruby is installed,
 which ruby
 
-# also your gems
+# your gems available,
 gem list
 
+# and your code is mounted
+ls
 ```
 
 #### Now What?
