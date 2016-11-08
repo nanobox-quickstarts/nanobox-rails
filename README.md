@@ -14,24 +14,30 @@ cd nanobox-rails
 #### Run the app
 
 ```bash
-# Run rails as you would normally, inside of Nanobox:
+# Run rails as you would normally, inside of Nanobox
 nanobox run rails s
 ```
 
 #### Check it out
 
 ```bash
-# Add a convenient way to access your app from the browser:
+# Add a convenient way to access your app from the browser
 nanobox dns add local rails.dev
 ```
 
-From a browser: [rails.dev](http://rails.dev)
+[rails.dev](http://rails.dev)
 
 #### Explore
 
 ```bash
-# drop into a console within nanobox
+# drop into Nanobox
 nanobox run
+
+# hey, ruby is installed!
+which ruby
+
+# also your gems
+gem list
 
 ```
 
