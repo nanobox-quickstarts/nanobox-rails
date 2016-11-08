@@ -18,7 +18,7 @@ cd nanobox-rails
 nanobox run rails s
 ```
 
-### Check it out
+#### Check it out
 
 ```bash
 # Add a convenient way to access your app from the browser:
