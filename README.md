@@ -14,7 +14,7 @@ cd nanobox-rails
 #### Run the app
 
 ```bash
-# Run rails as you would normally, inside of Nanobox
+# Run rails as you would normally, with Nanobox
 nanobox run rails s
 ```
 
