@@ -11,13 +11,15 @@ git clone https://github.com/nanobox-quickstarts/nanobox-rails.git
 cd nanobox-rails
 ```
 
+## Add dns
+
+```bash
+nanobox dns add local rails.dev
+```
+
 ## Run the app
 
 ```bash
-# add a convenient way to access your app from the browser
-nanobox dns add local rails.dev
-
-# run rails
 nanobox run rails s
 ```
 
