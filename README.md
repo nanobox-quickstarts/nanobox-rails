@@ -11,13 +11,6 @@ git clone https://github.com/nanobox-quickstarts/nanobox-rails.git
 cd nanobox-rails
 ```
 
-#### Add dns
-
-```bash
-# Add a convenient way to access your app from the browser:
-nanobox dns add local rails.dev
-```
-
 #### Run the app
 
 ```bash
@@ -25,9 +18,14 @@ nanobox dns add local rails.dev
 nanobox run rails s
 ```
 
-#### Success!
+### Check it out
 
-Check it out: [rails.dev](http://rails.dev)
+```bash
+# Add a convenient way to access your app from the browser:
+nanobox dns add local rails.dev
+```
+
+From a browser: [rails.dev](http://rails.dev)
 
 #### Explore
 
