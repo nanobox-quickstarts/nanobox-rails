@@ -24,18 +24,20 @@ nanobox run rails s
 # Add a convenient way to access your app from the browser
 nanobox dns add local rails.dev
 ```
-
-Seriously, check it out -> [rails.dev](http://rails.dev)
+Visit your app -> [rails.dev](http://rails.dev)
 
 #### Explore
+
+With Nanobox, you don't have to have anything installed on your machine to run your app:
+
 ```bash
-# drop into your app context
+# drop into a Nanobox console
 nanobox run
 
 # where ruby is installed,
 which ruby
 
-# your gems available,
+# your gems are available,
 gem list
 
 # and your code is mounted
