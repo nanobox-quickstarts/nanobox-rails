@@ -35,7 +35,7 @@ With Nanobox, you don't have to have anything installed on your machine to run y
 nanobox run
 
 # where ruby is installed,
-which ruby
+ruby -v
 
 # your gems are available,
 gem list
