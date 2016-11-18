@@ -1,12 +1,39 @@
 run.config:
-  # the ruby engine provides the ruby runtime and runs bundle install during the
-  # compile phase
-  engine: "ruby"
+  engine: ruby
 
-  # the nodejs package provides the nodejs runtime and npm
+  # add extra packages
   extra_packages:
-    - "nodejs-6.2"
+    - nodejs
+    - nginx
 
-# run the application in a web component
-web.rails:
-  start: 'bundle exec rails s'
+#
+deploy.config:
+  extra_steps:
+    - rake assets:precompile
+
+  before_live:
+    web.main:
+      - rake db:setup_or_migrate
+
+# add a database
+data.db:
+  image: nanobox/postgresql
+
+# add a web component and give it a "start" command
+web.main:
+  start:
+    nginx: nginx -c /app/config/nginx.conf
+    puma: bundle exec puma -C /app/config/puma.rb
+
+  # add writable dirs to the web component
+  writable_dirs:
+    - tmp
+    - log
+
+  # the path to a logfile you want streamed to the nanobox dashboard
+  log_watch:
+    rails: 'log/production.log'
+
+# add a worker component and give it a "start" command
+# worker.main:
+#   start: sidekiq
