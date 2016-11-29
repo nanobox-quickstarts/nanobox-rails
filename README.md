@@ -1,6 +1,13 @@
 ![Rails from scratch](https://guides.nanobox.io/assets/quickstart-icons/rails.png)
 
-#### Clone the repo
+# Rails from scratch
+
+Run a Rails app locally, install nothing besides nanobox. 
+
+<a href="https://nanobox.io/download"><img src="https://guides.nanobox.io/assets/quickstart-icons/download.png" /></a>
+
+
+## Clone the repo
 
 ```bash
 # clone the code
@@ -10,14 +17,14 @@ git clone https://github.com/nanobox-quickstarts/nanobox-rails.git
 cd nanobox-rails
 ```
 
-#### Run the app
+## Run the app
 
 ```bash
 # Run rails as you would normally, with Nanobox
 nanobox run rails s
 ```
 
-#### Check it out
+## Check it out
 
 ```bash
 # Add a convenient way to access your app from the browser
@@ -26,7 +33,7 @@ nanobox dns add local rails.dev
 
 Visit your app at <a href="http://rails.dev:3000" target="\_blank">rails.dev:3000</a>
 
-#### Explore
+## Explore
 
 With Nanobox, you don't have to have anything installed on your machine to run your app:
 
@@ -44,5 +51,7 @@ gem list
 ls
 ```
 
-#### Now What?
+## Now What?
 For more details about running rails apps with nanobox visit [guides.nanobox.io/ruby/rails/](https://guides.nanobox.io/ruby/rails/)
+
+<a href="https://nanobox.io"><img src="https://guides.nanobox.io/assets/quickstart-icons/footer.png" /></a>
