@@ -20,16 +20,14 @@ cd nanobox-rails
 ## Run the app
 
 ```bash
+# Add a convenient way to access your app from the browser
+nanobox dns add local rails.dev
+
 # Run rails as you would normally, with Nanobox
 nanobox run rails s
 ```
 
 ## Check it out
-
-```bash
-# Add a convenient way to access your app from the browser
-nanobox dns add local rails.dev
-```
 
 Visit your app at <a href="http://rails.dev:3000" target="\_blank">rails.dev:3000</a>
 
