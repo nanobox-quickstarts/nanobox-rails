@@ -1,7 +1,7 @@
 ![Rails with Nanobox](https://guides.nanobox.io/assets/quickstart-icons/rails.png)
 
 # Get Rails Up & Running in Minutes
-This quickstart allows you to quickly and easily get a new Rails app or an existing Rails app up and running with [Nanobox](https://nanobox.io). Nanobox is a micro-platform that builds, runs, and manages your app anywhere – locally and in production. For more details, view the ["What is Nanobox?"](https:nanobox.io/what-is-nanobox) page.
+This quickstart allows you to quickly and easily get a new Rails app or an existing Rails app up and running with [Nanobox](https://nanobox.io). Nanobox is a micro-platform that builds, runs, and manages your app anywhere – locally and in production. For more details, view the ["What is Nanobox?"](https://nanobox.io/what-is-nanobox) page.
 
 #### Download & Install Nanobox
 If you haven't already, [create a free Nanobox account](https://dashboard.nanobox.io/users/register), then download and install Nanobox.
