@@ -11,8 +11,9 @@ deploy.config:
   extra_steps:
     - rake assets:precompile
 
-  transform:
-    - rake db:setup_or_migrate
+  before_live:
+    web.main:
+      - rake db:setup_or_migrate
 
 # add a database
 data.db:
@@ -28,6 +29,7 @@ web.main:
   writable_dirs:
     - tmp
     - log
+    - db
 
   # the path to a logfile you want streamed to the nanobox dashboard
   log_watch:
