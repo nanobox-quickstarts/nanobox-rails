@@ -7,46 +7,39 @@ Run a Rails app locally, install nothing besides nanobox.
 <a href="https://nanobox.io/download"><img src="https://guides.nanobox.io/assets/quickstart-icons/download.png" /></a>
 
 
-## Clone the repo
-
+## Clone the nanobox repo
 ```bash
-# clone the code
 git clone https://github.com/nanobox-quickstarts/nanobox-rails.git
-
-# cd into the rails app
-cd nanobox-rails
 ```
 
 ## Run the app
-
 ```bash
-# Add a convenient way to access your app from the browser
-nanobox dns add local rails.dev
-
-# Run rails as you would normally, with Nanobox
+# Run rails through Nanobox
 nanobox run rails s
 ```
 
 ## Check it out
+Visit your app at <a href="http://localhost:3000" target="\_blank">localhost:3000</a> or you can run the below command to create a 'nicer' url.
+```bash
+nanobox dns add local <a href="http://rails.dev:3000" target="\_blank">rails.dev:3000</a>
+```
+Now you can access your app from rails.dev
 
-Visit your app at <a href="http://rails.dev:3000" target="\_blank">rails.dev:3000</a>
 
 ## Explore
 
 With Nanobox, you don't have to have anything installed on your machine to run your app:
 
 ```bash
-# drop into a Nanobox console
+# Open a Nanobox console
 nanobox run
 
-# where ruby is installed,
+# Ruby version
 ruby -v
 
-# your gems are available,
+# List installed gems
 gem list
 
-# and your code is mounted
-ls
 ```
 
 ## Now What?
