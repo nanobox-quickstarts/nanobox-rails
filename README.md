@@ -21,9 +21,9 @@ nanobox run rails s
 ## Check it out
 Visit your app at <a href="http://localhost:3000" target="\_blank">localhost:3000</a> or you can run the below command to create a 'nicer' url.
 ```bash
-nanobox dns add local <a href="http://rails.dev:3000" target="\_blank">rails.dev:3000</a>
+nanobox dns add local rails.dev
 ```
-Now you can access your app from rails.dev
+Now you can access your app from <a href="http://rails.dev:3000" target="\_blank">rails.dev:3000</a>
 
 
 ## Explore
