@@ -23,6 +23,9 @@ cd nanobox-rails
 # Add a convenient way to access your app from the browser
 nanobox dns add local rails.dev
 
+# Run rake commands as you would normally, with Nanobox
+nanobox run rake db:create
+
 # Run rails as you would normally, with Nanobox
 nanobox run rails s
 ```
