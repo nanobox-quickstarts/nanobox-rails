@@ -6,6 +6,10 @@ run.config:
     - nodejs
     - nginx
 
+  build_triggers:
+    - Gemfile
+    - Gemfile.lock
+
 #
 deploy.config:
   extra_steps:
