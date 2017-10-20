@@ -27,7 +27,7 @@ nanobox dns add local rails.dev
 nanobox run rake db:create
 
 # Run rails as you would normally, with Nanobox
-nanobox run rails s
+nanobox run rails s -b 0.0.0.0 -p 8080
 ```
 
 ## Check it out
