@@ -29,7 +29,6 @@ web.main:
   writable_dirs:
     - tmp
     - log
-    - db
 
   # the path to a logfile you want streamed to the nanobox dashboard
   log_watch:
