@@ -6,13 +6,13 @@ Run a local rails app with nothing but Nanobox.
 <a href="https://nanobox.io/download"><img src="https://guides.nanobox.io/assets/quickstart-icons/download.png" /></a>
 
 # Installation and Setup
-1. Clone the nanobox repo
+1. Clone this repo
       `git clone https://github.com/nanobox-quickstarts/nanobox-rails.git`
-2. Don't forget to cd into the new directory
+2. Change into the directory
         `cd nanobox-rails`
 3. Add a local DNS record
         `nanobox dns add local rails.dev`
-4. Run rake to create a database
+4. Create the database
         `nanobox run rake db:create`
 5. Run the app
         `nanobox run rails s`
