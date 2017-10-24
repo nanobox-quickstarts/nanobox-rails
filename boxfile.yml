@@ -6,13 +6,18 @@ run.config:
     - nodejs
     - nginx
 
+  build_triggers:
+    - Gemfile
+    - Gemfile.lock
+
 #
 deploy.config:
   extra_steps:
     - rake assets:precompile
 
-  transform:
-    - rake db:setup_or_migrate
+  before_live:
+    web.main:
+      - rake db:setup_or_migrate
 
 # add a database
 data.db:
@@ -22,7 +27,7 @@ data.db:
 web.main:
   start:
     nginx: nginx -c /app/config/nginx.conf
-    puma: bundle exec puma -C /app/config/puma.rb
+    puma: bundle exec rails s -b 0.0.0.0 -p 8080
 
   # add writable dirs to the web component
   writable_dirs:
