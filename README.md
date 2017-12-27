@@ -11,7 +11,7 @@ Run a local rails app with nothing but Nanobox.
 2. Change into the directory
         `cd nanobox-rails`
 3. Add a local DNS record
-        `nanobox dns add local rails.dev`
+        `nanobox dns add local rails.local`
 4. Create the database
         `nanobox run rake db:create`
 5. Run the app
