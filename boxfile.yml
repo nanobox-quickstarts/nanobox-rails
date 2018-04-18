@@ -27,7 +27,7 @@ data.db:
 web.main:
   start:
     nginx: nginx -c /app/config/nginx.conf
-    puma: bundle exec rails s -b 0.0.0.0 -p 8080
+    puma: bundle exec rails s -b 0.0.0.0 -p 3000
 
   # add writable dirs to the web component
   writable_dirs:
